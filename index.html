@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive coffee website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- <--------------box icons---------->
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- <-------------navbar------------------- -->
+    <header>
+        
+        <a href="#" class="logo">
+            <img src="logo1.png" alt="img">
+        </a>
+    <!-- <-------------------menu icon------------------ -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+    <!-- <-----------------links----------------- -->
+    <ul class="navbar">
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="customers.html">Customers</a></li>
+        <li><a href="login.html">login</a></li>
+
+    </ul>
+    <!-- <----------------------------icon-------------- -->
+    <div id="h-icon" onclick="toggleSearchBox()">
+        <i class='bx bx-search' id="search"></i>
+    </div>
+   </header>
+
+     <div class="s-box">
+        <input type="search" name="" id="" placeholder="Search Here" >
+    </div>
+
+
+
+<!-- <----------------------home------------------------ -->
+   <section class=" home" id="home">
+        <div class="h-text">
+            <h1>Start Your Day<br> With Coffee</h1>
+            <p>Welcome to our bustling coffee haven, where the air is rich with the aroma of freshly brewed blends. Join us for a cozy atmosphere, expertly crafted beverages, and delightful conversations.</p><br>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+        <div class="h-img">
+            <img src="iii.jpg" alt="img">
+        </div>
+    </section>
+    <!-- ----------------------about------------------------ -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about-img.png" alt="img">
+        </div>
+        <div class="about-text">
+            <h2>Our History</h2>
+            <p>Originally a concept from 17th-century Ottoman Empire, coffeehouses emerged as centers of social activity and intellectual exchange. The first European coffeehouses opened in the 17th century, spreading rapidly across continents. By the 20th century, they evolved into modern cafés, retaining their role as hubs for community, conversation, and caffeine.</p>
+            <p>A coffeeshop, a modern sanctuary, offers a blend of comfort and productivity. Aromas of freshly ground coffee beans envelop patrons as they gather to savor espresso creations or simply immerse themselves in work or conversation. With cozy nooks and a welcoming atmosphere, it's a haven for coffee aficionados and creatives alike.!</p>
+            <p>A coffeeshop hums with the aroma of freshly brewed coffee and the chatter of patrons. Baristas skillfully craft espresso drinks, while cozy nooks invite customers to linger over laptops or books. The ambiance blends warmth and productivity, making it a haven for caffeine enthusiasts and freelancers alike..</p>
+        
+        <div id="moreContent" style="display: none;">
+            <p>In a bustling coffeeshop, the rich scent of roasted beans mingles with the hum of conversation. Baristas expertly craft beverages, from classic espressos to trendy lattes. Patrons gather, laptops in tow, seeking a cozy retreat to work or unwind. It's a place where caffeine fuels creativity and connections flourish over steaming cups.</p>
+        </div>
+        <a href="#about" class="btn" onclick="toggleMoreContent()">Learn More</a>
+       </div>
+    </section>
+<!-- -----------------------------------products--------------------------------- -->
+    <section class="products" id="products">
+        <div class="heading">
+            <h2>Our popular products</h2>
+        </div>
+<!-- --------------------container--------------- -->
+        <div class="p-container">
+            <div class="box">
+                <img src="1.jpg"  class="zoom-image">
+                <h3>Americano Pure</h3>
+                <h5>$25</h5>
+            </div>
+            <div class="box">
+                <img src="5.jpg" alt="img" class="zoom-image">
+                <h3>Americano Pure</h3>
+                <h5>$25</h5>
+            </div>
+            <div class="box">
+                <img src="3.jpg" alt="img" class="zoom-image">
+                <h3>Americano Pure</h3>
+                <h5>$25</h5>
+            </div>
+            <div class="box">
+                <img src="4.jpg" alt="img" class="zoom-image">
+                <h3>Americano Pure</h3>
+                <h5>$25</h5>
+            </div>
+            <div class="box">
+                <img src="2.jpg" alt="img" class="zoom-image">
+                <h3>Americano Pure</h3>
+                <h5>$25</h5>
+            </div>
+            <div class="box">
+                <img src="6.jpg" alt="img" class="zoom-image">
+                <h3>Americano Pure</h3>
+                <h5>$25</h5>
+            </div>
+            <div class="box">
+                <img src="7.jpg" alt="img" class="zoom-image">
+                <h3>Americano Pure</h3>
+                <h5>$25</h5>
+            </div>
+            <div class="box">
+                <img src="8.jpg" alt="img" class="zoom-image">
+                <h3>Americano Pure</h3>
+                <h5>$25</h5>
+            </div>
+        </div>
+    </section>
+<!-- -------------------------------------customers---------------------------------- -->
+   <section class="customers" id="customers">
+    <div class="heading">
+        <h2>Our customer's</h2>
+    </div>
+    <!-- -------------------container---------------------------->
+    <div class="c-container">
+        <div class="box">
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores ipsum quisquam odit alias facere, labore minima similique tempora officiis ab excepturi esse molestias nam a beatae expedita debitis aperiam.</p>
+            <h2>Vasin Arafat</h2>
+            <img src="cus1.jpg" alt="">
+        </div>
+        <div class="box">
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores ipsum quisquam odit alias facere, labore minima similique tempora officiis ab excepturi esse molestias nam a beatae expedita debitis aperiam.</p>
+            <h2>Vasin Arafat</h2>
+            <img src="cus3.jpg" alt="">
+        </div>
+        <div class="box">
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores ipsum quisquam odit alias facere, labore minima similique tempora officiis ab excepturi esse molestias nam a beatae expedita debitis aperiam.</p>
+            <h2>Vasin Arafat</h2>
+            <img src="cus2.jpg" alt="">
+        </div>
+    </div>
+  </section>
+<!-- --------------------------------------footer-------------------------------- -->
+ <section class="footer">
+ 
+    <div class="footer-box">
+        <h3>Coffee Shop</h3>
+        <p>A coffeeshop hums with the aroma of freshly brewed coffee and the chatter of patrons. Baristas skillfully craft espresso drinks, while cozy nooks invite customers to linger over laptops or books.</p>
+        <div class="social">
+            <a href="https://www.facebook.com/"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://twitter.com/?lang=en-in"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.instagram.com/?hl=en"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
+        </div>
+    </div>
+    <div class="footer-box">
+        <h3>Support</h3>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Help & Support</a></li>
+        <li><a href="#">Return Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Product</a></li>
+    </div>
+    <div class="footer-box">
+        <h3>View Guides</h3>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Blog Posts</a></li>
+        <li><a href="#">Our Branches</a></li>
+    </div>
+    <div class="footer-box">
+        <h3>Contact</h3>
+        <div class="contact">
+            <span><i class='bx bxs-map' ></i>250 New York City,USA 10001</span>
+            <span><i class='bx bxs-phone' ></i>+1 444 744 8444</span>
+            <span><i class='bx bxs-envelope' ></i>coffee@shop.com</span>
+        </div>
+    </div>
+
+       
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="form">
+     <!-- <-------------navbar------------------- -->
+     <header>
+        <a href="#" class="logo">
+            <img src="logo1.png" alt="img">
+        </a>
+    <!-- <-------------------menu icon------------------ -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+    <!-- <-----------------links----------------- -->
+    <ul class="navbar">
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="customers.html">Customers</a></li>
+
+    </ul>
+    <!-- <----------------------------icon-------------- -->
+    <div id="h-icon" onclick="toggleSearchBox()">
+        <i class='bx bx-search' id="search"></i>
+    </div>
+   </header>
+    <div class="s-box">
+        <input type="search" name="" id="" placeholder="Search Here" >
+    </div>
+
+  
+   <!-- --------------------------------form validation------------------------------ -->
+   <div class="contact-form">
+    <form action="" id="myform"  onsubmit="return validateForm()">
+       
+
+        <h3>LOGIN</h3><br>
+        <input type="text" name="name" id="name" placeholder="Name*">         
+        <span id="nameError" class="error"></span><br>
+
+        <input type="password" name="passworde" id="password" placeholder="password*">
+        <span id="passwordError" class="error"></span><br><br>
+        
+        <input type="submit" value="submit" class="btn1">
+    </form>
+</div>
+
+
+
+
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
